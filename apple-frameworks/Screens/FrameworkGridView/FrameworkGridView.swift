@@ -15,15 +15,15 @@ struct FrameworkGridView: View {
         NavigationStack {
             List {
                 ForEach(MockData.frameworks) { framework in
-                    NavigationLink(destination:
-                                    FrameworkDetailView(framework: framework,
-                                                        isShowingDetailView:
-                                                            $viewModel.isShowingDetailView)) {
+                    NavigationLink(value: framework) {
                         FrameworkTitleView(framework: framework)
                     }
                 }
             }
             .navigationTitle("🍎 Frameworks")
+            .navigationDestination(for: Framework.self) { framework in
+                FrameworkDetailView(framework: framework)
+            }
         }
         .accentColor(Color(.label))
     }
