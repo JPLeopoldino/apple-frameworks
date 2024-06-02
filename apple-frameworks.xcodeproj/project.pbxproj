@@ -16,11 +16,9 @@
 		CF60AD1F2BF925BF0032695C /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60AD1E2BF925BF0032695C /* Framework.swift */; };
 		CF60AD232BF926D00032695C /* FrameworkGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60AD222BF926D00032695C /* FrameworkGridView.swift */; };
 		CF60AD252BF931820032695C /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60AD242BF931820032695C /* FrameworkDetailView.swift */; };
-		CF60AD272BF933830032695C /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60AD262BF933830032695C /* AFButton.swift */; };
 		CF60AD292BF9363B0032695C /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF60AD282BF9363B0032695C /* FrameworkGridViewModel.swift */; };
 		CF7EE2952C0CAECD008A61C4 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7EE2942C0CAECD008A61C4 /* SafariView.swift */; };
 		CF7EE2972C0CFC24008A61C4 /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7EE2962C0CFC24008A61C4 /* FrameworkTitleView.swift */; };
-		CF7EE2992C0CFCA4008A61C4 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7EE2982C0CFCA4008A61C4 /* XDismissButton.swift */; };
 		CFA8C3B52C0D0C17008BB5FD /* FrameworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8C3B42C0D0C17008BB5FD /* FrameworkListView.swift */; };
 		CFA8C3B82C0D0C75008BB5FD /* FrameworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8C3B72C0D0C75008BB5FD /* FrameworkView.swift */; };
 		CFA8C3BA2C0D1188008BB5FD /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8C3B92C0D1188008BB5FD /* FloatingActionButton.swift */; };
@@ -56,11 +54,9 @@
 		CF60AD1E2BF925BF0032695C /* Framework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Framework.swift; sourceTree = "<group>"; };
 		CF60AD222BF926D00032695C /* FrameworkGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridView.swift; sourceTree = "<group>"; };
 		CF60AD242BF931820032695C /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
-		CF60AD262BF933830032695C /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		CF60AD282BF9363B0032695C /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
 		CF7EE2942C0CAECD008A61C4 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		CF7EE2962C0CFC24008A61C4 /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
-		CF7EE2982C0CFCA4008A61C4 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
 		CFA8C3B42C0D0C17008BB5FD /* FrameworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListView.swift; sourceTree = "<group>"; };
 		CFA8C3B72C0D0C75008BB5FD /* FrameworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkView.swift; sourceTree = "<group>"; };
 		CFA8C3B92C0D1188008BB5FD /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
@@ -198,8 +194,6 @@
 		CF7EE29F2C0CFE03008A61C4 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				CF60AD262BF933830032695C /* AFButton.swift */,
-				CF7EE2982C0CFCA4008A61C4 /* XDismissButton.swift */,
 				CFA8C3B92C0D1188008BB5FD /* FloatingActionButton.swift */,
 			);
 			path = Buttons;
@@ -370,9 +364,7 @@
 				CFA8C3B82C0D0C75008BB5FD /* FrameworkView.swift in Sources */,
 				CF60AD252BF931820032695C /* FrameworkDetailView.swift in Sources */,
 				CF60AD232BF926D00032695C /* FrameworkGridView.swift in Sources */,
-				CF7EE2992C0CFCA4008A61C4 /* XDismissButton.swift in Sources */,
 				CF60AD1F2BF925BF0032695C /* Framework.swift in Sources */,
-				CF60AD272BF933830032695C /* AFButton.swift in Sources */,
 				CF60ACF52BF9257D0032695C /* apple_frameworksApp.swift in Sources */,
 				CFA8C3BA2C0D1188008BB5FD /* FloatingActionButton.swift in Sources */,
 				CF60AD292BF9363B0032695C /* FrameworkGridViewModel.swift in Sources */,
