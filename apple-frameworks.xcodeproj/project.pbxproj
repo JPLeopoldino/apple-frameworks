@@ -22,6 +22,7 @@
 		CFA8C3B52C0D0C17008BB5FD /* FrameworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8C3B42C0D0C17008BB5FD /* FrameworkListView.swift */; };
 		CFA8C3B82C0D0C75008BB5FD /* FrameworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8C3B72C0D0C75008BB5FD /* FrameworkView.swift */; };
 		CFA8C3BA2C0D1188008BB5FD /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8C3B92C0D1188008BB5FD /* FloatingActionButton.swift */; };
+		CFA8C3BC2C0D1FED008BB5FD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CFA8C3BB2C0D1FED008BB5FD /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		CFA8C3B42C0D0C17008BB5FD /* FrameworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListView.swift; sourceTree = "<group>"; };
 		CFA8C3B72C0D0C75008BB5FD /* FrameworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkView.swift; sourceTree = "<group>"; };
 		CFA8C3B92C0D1188008BB5FD /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		CFA8C3BB2C0D1FED008BB5FD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		CF60ACE82BF9257D0032695C = {
 			isa = PBXGroup;
 			children = (
+				CFA8C3BB2C0D1FED008BB5FD /* README.md */,
 				CF60ACF32BF9257D0032695C /* apple-frameworks */,
 				CF60AD042BF9257E0032695C /* apple-frameworksTests */,
 				CF60AD0E2BF9257E0032695C /* apple-frameworksUITests */,
@@ -335,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA8C3BC2C0D1FED008BB5FD /* README.md in Resources */,
 				CF60ACFC2BF9257E0032695C /* Preview Assets.xcassets in Resources */,
 				CF60ACF92BF9257E0032695C /* Assets.xcassets in Resources */,
 			);
