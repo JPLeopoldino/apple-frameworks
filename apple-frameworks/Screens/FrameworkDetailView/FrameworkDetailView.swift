@@ -13,13 +13,16 @@ struct FrameworkDetailView: View {
     @State private var isShowingSafariView = false
     
     var body: some View {
-        VStack() {            
-            FrameworkTitleView(framework: framework)
+        VStack() {
+            FrameworkTitleView(framework: framework, vertical: false)
+            
+            Spacer()
             
             Text(framework.description)
                 .font(.body)
                 .padding()
             
+            Spacer()
             Spacer()
             
             Button {

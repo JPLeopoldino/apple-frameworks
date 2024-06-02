@@ -11,22 +11,42 @@ struct FrameworkTitleView: View {
     
     let framework: Framework
     
+    let vertical: Bool
+    
     var body: some View {
-        HStack {
-            Image(framework.imageName)
-                .resizable()
-                .frame(width: 70, height: 70)
-            Text(framework.name)
-                .font(.title2)
-                .fontWeight(.semibold)
-                .foregroundStyle(Color(.label))
-                .scaledToFit()
-                .minimumScaleFactor(0.6)
-                .padding()
+        if vertical {
+            VStack {
+                FrameworkTitleContentView(framework: framework, isSmall: false)
+            }
+        } else {
+            HStack {
+                FrameworkTitleContentView(framework: framework, isSmall: true)
+            }
         }
     }
 }
 
 #Preview {
-    FrameworkTitleView(framework: MockData.sampleFramework)
+    FrameworkTitleView(framework: MockData.sampleFramework, vertical: true)
+}
+
+
+struct FrameworkTitleContentView: View {
+    
+    let framework: Framework
+    
+    let isSmall: Bool
+    
+    var body: some View {
+        Image(framework.imageName)
+            .resizable()
+            .frame(width: isSmall ? 60 : 90, height: isSmall ? 60 : 90)
+        Text(framework.name)
+            .font(.title2)
+            .fontWeight(.semibold)
+            .foregroundStyle(Color(.label))
+            .scaledToFit()
+            .minimumScaleFactor(0.6)
+            .padding()
+    }
 }

@@ -21,6 +21,9 @@
 		CF7EE2952C0CAECD008A61C4 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7EE2942C0CAECD008A61C4 /* SafariView.swift */; };
 		CF7EE2972C0CFC24008A61C4 /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7EE2962C0CFC24008A61C4 /* FrameworkTitleView.swift */; };
 		CF7EE2992C0CFCA4008A61C4 /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7EE2982C0CFCA4008A61C4 /* XDismissButton.swift */; };
+		CFA8C3B52C0D0C17008BB5FD /* FrameworkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8C3B42C0D0C17008BB5FD /* FrameworkListView.swift */; };
+		CFA8C3B82C0D0C75008BB5FD /* FrameworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8C3B72C0D0C75008BB5FD /* FrameworkView.swift */; };
+		CFA8C3BA2C0D1188008BB5FD /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8C3B92C0D1188008BB5FD /* FloatingActionButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		CF7EE2942C0CAECD008A61C4 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		CF7EE2962C0CFC24008A61C4 /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
 		CF7EE2982C0CFCA4008A61C4 /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		CFA8C3B42C0D0C17008BB5FD /* FrameworkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkListView.swift; sourceTree = "<group>"; };
+		CFA8C3B72C0D0C75008BB5FD /* FrameworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkView.swift; sourceTree = "<group>"; };
+		CFA8C3B92C0D1188008BB5FD /* FloatingActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +153,8 @@
 		CF7EE29A2C0CFD8A008A61C4 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				CFA8C3B62C0D0C60008BB5FD /* FrameworkView */,
+				CFA8C3B32C0D0BFB008BB5FD /* FrameworkListView */,
 				CF7EE29B2C0CFD96008A61C4 /* FrameworkGridView */,
 				CF7EE29C2C0CFDB8008A61C4 /* FrameworkDetailView */,
 			);
@@ -192,6 +200,7 @@
 			children = (
 				CF60AD262BF933830032695C /* AFButton.swift */,
 				CF7EE2982C0CFCA4008A61C4 /* XDismissButton.swift */,
+				CFA8C3B92C0D1188008BB5FD /* FloatingActionButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -210,6 +219,22 @@
 				CF7EE2942C0CAECD008A61C4 /* SafariView.swift */,
 			);
 			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		CFA8C3B32C0D0BFB008BB5FD /* FrameworkListView */ = {
+			isa = PBXGroup;
+			children = (
+				CFA8C3B42C0D0C17008BB5FD /* FrameworkListView.swift */,
+			);
+			path = FrameworkListView;
+			sourceTree = "<group>";
+		};
+		CFA8C3B62C0D0C60008BB5FD /* FrameworkView */ = {
+			isa = PBXGroup;
+			children = (
+				CFA8C3B72C0D0C75008BB5FD /* FrameworkView.swift */,
+			);
+			path = FrameworkView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,13 +367,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA8C3B82C0D0C75008BB5FD /* FrameworkView.swift in Sources */,
 				CF60AD252BF931820032695C /* FrameworkDetailView.swift in Sources */,
 				CF60AD232BF926D00032695C /* FrameworkGridView.swift in Sources */,
 				CF7EE2992C0CFCA4008A61C4 /* XDismissButton.swift in Sources */,
 				CF60AD1F2BF925BF0032695C /* Framework.swift in Sources */,
 				CF60AD272BF933830032695C /* AFButton.swift in Sources */,
 				CF60ACF52BF9257D0032695C /* apple_frameworksApp.swift in Sources */,
+				CFA8C3BA2C0D1188008BB5FD /* FloatingActionButton.swift in Sources */,
 				CF60AD292BF9363B0032695C /* FrameworkGridViewModel.swift in Sources */,
+				CFA8C3B52C0D0C17008BB5FD /* FrameworkListView.swift in Sources */,
 				CF7EE2972C0CFC24008A61C4 /* FrameworkTitleView.swift in Sources */,
 				CF7EE2952C0CAECD008A61C4 /* SafariView.swift in Sources */,
 			);
